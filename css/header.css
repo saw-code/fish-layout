@@ -1,0 +1,97 @@
+.header {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    top: 0;
+    opacity: 0.95;
+    height: 60px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.col-1 {
+    flex-basis: 20%;
+    height: 60px;
+}
+
+.col-2 {
+    flex-basis: 40%;
+    height: 60px;
+}
+
+.col-3 {
+    flex-basis: 40%;
+    height: 60px;
+}
+
+.header-price {
+    float: left;
+    vertical-align: baseline;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.header-price-button {
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
+
+.header-form-pay {
+    float: right;
+    vertical-align: baseline;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+.header-form {
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
+
+.header-tel {
+    float: right;
+    vertical-align: baseline;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+.header-tel-button {
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
+
+@media (max-width: 640px) {
+    .header {
+        height: 70px;
+        position: inherit;
+    }
+
+    .wrapper {
+        width: 100%;
+        display: block;
+    }
+
+    .header-price {
+        float: none;
+        margin-top: 15px;
+        margin-left: 6px;
+    }
+
+    .header-form-pay {
+        float: none;
+        margin-top: 6px;
+        margin-left: 6px;
+    }
+
+    .header-tel {
+        float: none;
+        margin-top: 6px;
+        margin-left: 6px;
+    }
+}

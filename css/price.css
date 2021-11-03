@@ -1,0 +1,22 @@
+.price {
+    background: seagreen;
+}
+
+.small {
+    padding: 50px;
+}
+
+.medium {
+    padding: 50px;
+}
+
+.large {
+    padding: 50px;
+}
+
+.price-title {
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    color: orange;
+    font-weight: bolder;
+}
