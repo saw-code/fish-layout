@@ -1,24 +1,24 @@
 .intro {
-    background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%),
-                      url("../photo/fish.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll, fixed;
-    background-position: 0 0%, center top;
-    color: #fff;
-    margin-top: 60px;
+  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%),
+  url("../photo/fish.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+  color: #fff;
+  margin-top: 75px;
 }
 
 .dark-background {
-    padding-top: 210px;
-    padding-bottom: 300px;
-    background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 210px;
+  padding-bottom: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 731px) {
-    .intro {
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-top: 150px;
-    }
+  .intro {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 150px;
+  }
 }

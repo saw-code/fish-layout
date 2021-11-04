@@ -1,97 +1,64 @@
 .header {
-    position: fixed;
-    width: 100%;
-    background: #fff;
-    top: 0;
-    opacity: 0.95;
-    height: 60px;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  top: 0;
+  opacity: 0.95;
 }
 
-.wrapper {
-    width: 100%;
-    display: flex;
+.header-logo {
+  float: left;
+  display: inline;
+  width: 134px;
+  height: 36px;
+  padding: 0 20px;
 }
 
-.col-1 {
-    flex-basis: 20%;
-    height: 60px;
+.header-logo-image {
+  float: left;
+  display: inline;
+  width: 134px;
+  height: 36px;
+  padding: 0 20px
 }
 
-.col-2 {
-    flex-basis: 40%;
-    height: 60px;
+.header-nav {
+  float: right;
+  vertical-align: baseline;
+  line-height: 36px;
 }
 
-.col-3 {
-    flex-basis: 40%;
-    height: 60px;
+.header-nav-item {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+  display: inline-block;
 }
 
-.header-price {
-    float: left;
-    vertical-align: baseline;
-    margin-top: 6px;
-    margin-left: 6px;
-}
-
-.header-price-button {
-    list-style: none;
-    margin: 0;
-    display: inline;
-}
-
-.header-form-pay {
-    float: right;
-    vertical-align: baseline;
-    margin-top: 6px;
-    margin-right: 6px;
-}
-
-.header-form {
-    list-style: none;
-    margin: 0;
-    display: inline;
-}
-
-.header-tel {
-    float: right;
-    vertical-align: baseline;
-    margin-top: 6px;
-    margin-right: 6px;
-}
-
-.header-tel-button {
-    list-style: none;
-    margin: 0;
-    display: inline;
+.header-nav-link {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
 }
 
 @media (max-width: 640px) {
-    .header {
-        height: 70px;
-        position: inherit;
-    }
+  .header {
+    position: inherit;
+    width: auto;
+    background: #fff;
+    top: auto;
+    opacity: 1;
+  }
 
-    .wrapper {
-        width: 100%;
-        display: block;
-    }
+  .header-nav,
+  .header-logo {
+    float: none;
+  }
 
-    .header-price {
-        float: none;
-        margin-top: 15px;
-        margin-left: 6px;
-    }
+}
 
-    .header-form-pay {
-        float: none;
-        margin-top: 6px;
-        margin-left: 6px;
-    }
-
-    .header-tel {
-        float: none;
-        margin-top: 6px;
-        margin-left: 6px;
-    }
+@media (max-width: 360px) {
+  .header-nav-item {
+    display: block;
+  }
 }

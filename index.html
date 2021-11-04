@@ -14,32 +14,28 @@
   <link rel="stylesheet" href="css/price.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/form.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+
 <div class="header">
-  <div class="wrapper">
-    <div class="col-1">
-      <div class="header-price">
-        <div class="header-price-button">
-          <a href="#price" class="button button-green">Посмотреть цены</a>
-        </div>
-      </div>
+  <div class="container buffer-both">
+    <div class="header-logo">
+      <img class="header-logo-image" src="logo/2838.jpg" alt="[Лого компании]"/>
     </div>
-
-    <div class="col-2">
-      <div class="header-form-pay">
-        <div class="header-form">
-          <a href="#form" class="button button-red">Перейти к форме оплаты</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-3">
-      <div class="header-tel">
-        <div class="header-tel-button">
-          <a href="#" class="button button-blue">Тел: 8-800-888-88-88</a>
-        </div>
-      </div>
+    <div class="header-nav">
+      <ul>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#benefits">Наши преимущества</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#prices">Цены</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#buy">Купить</a>
+        </li>
+      </ul>
     </div>
   </div>
 </div>
@@ -51,7 +47,7 @@
   </div>
 </div>
 
-<div class="features text-center">
+<div class="features text-center" id="benefits">
   <div class="container">
     <div class="column-1-3">
       <div class="features-item">
@@ -80,21 +76,25 @@
   </div>
 </div>
 
-<div class="price" id="price">
+<div class="price" id="prices">
+  <p class="text-for-price">Цена указана за 1 кг</p>
   <div class="container">
     <div class="column-1-3">
       <div class="small">
-        <p class="price-title">Мелкая: 300 руб/кг</p>
+        <img class="adv-img" src="icons/small.png" alt="[Мелкая]">
+        <p class="price-title">300 руб</p>
       </div>
     </div>
     <div class="column-1-3">
       <div class="medium">
-        <p class="price-title">Средняя: 500 руб/кг</p>
+        <img class="adv-img" src="icons/medium.png" alt="[Средняя]">
+        <p class="price-title">500 руб</p>
       </div>
     </div>
     <div class="column-1-3">
       <div class="large">
-        <p class="price-title">Крупная: 800 руб/кг</p>
+        <img class="adv-img" src="icons/big.png" alt="[Большая]">
+        <p class="price-title">800 руб</p>
       </div>
     </div>
   </div>
@@ -103,7 +103,7 @@
 <div class="features-2 text-center">
   <p class="text-for-form">Для заказа заполните форму</p>
 
-  <div class="field" id="form">
+  <div class="field" id="buy">
     <form action="/" method="post">
       <input class="text-field" type="text" name="name" placeholder="Ф.И.О:">
     </form>

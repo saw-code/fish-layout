@@ -1,31 +1,39 @@
 body {
-    font-family: "Trebuchet MS", sans-serif;
-    color: #444;
-    font-size: 16px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: #444;
+  font-size: 16px;
 }
 
 .title-large {
-    font-size: 70px;
-    margin-bottom: 18px;
+  font-size: 70px;
+  margin-bottom: 18px;
 }
 
 .text-for-form {
-    font-size: 25px;
-    font-weight: bold;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.text-for-price {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  padding-top: 25px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .title-medium {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 12px;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 12px;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 @media (max-width: 731px) {
-    .title-large {
-        font-size: 56px;
-    }
+  .title-large {
+    font-size: 56px;
+  }
 }
