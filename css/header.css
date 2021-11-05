@@ -11,15 +11,16 @@
   display: inline;
   width: 134px;
   height: 36px;
-  padding: 0 20px;
+  padding: 0 5px;
 }
 
 .header-logo-image {
   float: left;
   display: inline;
-  width: 134px;
-  height: 36px;
-  padding: 0 20px
+  width: 50%;
+  height: 32px;
+  padding: 0 20px;
+  object-fit: cover;
 }
 
 .header-nav {
@@ -52,7 +53,7 @@
 
   .header-nav,
   .header-logo {
-    float: none;
+    float:left;
   }
 
 }
