@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>КОРЮШКА</title>
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/topnav.css">
   <link rel="stylesheet" href="css/text.css">
   <link rel="stylesheet" href="css/intro.css">
   <link rel="stylesheet" href="css/button.css">
@@ -14,33 +15,25 @@
   <link rel="stylesheet" href="css/price.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="js/burger.js"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<div class="header">
-  <div class="container buffer-both">
-    <div class="header-logo">
-      <img class="header-logo-image" src="logo/fish.jpg" alt="[Лого компании]"/>
-    </div>
-    <div class="header-nav">
-      <ul>
-        <li class="header-nav-item">
-          <a class="header-nav-link" href="#benefits">Наши преимущества</a>
-        </li>
-        <li class="header-nav-item">
-          <a class="header-nav-link" href="#prices">Цены</a>
-        </li>
-        <li class="header-nav-item">
-          <a class="header-nav-link" href="#buy">Купить</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#benefits">Наши преимущества</a>
+  <a href="#prices">Цены</a>
+  <a href="#buy">Купить</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
 
-<div class="intro text-center">
+<div class="intro text-center" id="home">
   <div class="dark-background">
     <h1 class="title-large">КОРЮШКА</h1>
     <a href="#" class="button button-white">Заказать звонок</a>
